@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.budget.budget_api.BudgetApiApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.050 s <<< FAILURE! -- in com.budget.budget_api.BudgetApiApplicationTests
+com.budget.budget_api.BudgetApiApplicationTests.contextLoads -- Time elapsed: 0.013 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The import org.springframework.boot.test cannot be resolved
+	SpringBootTest cannot be resolved to a type
+
+	at com.budget.budget_api.BudgetApiApplicationTests.<init>(BudgetApiApplicationTests.java:4)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
