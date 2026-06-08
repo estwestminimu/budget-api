@@ -65,7 +65,7 @@ public class TransactionServiceTest {
 
         transactionService.addTransaction(1L, request);
 
-        assertThat(account.getBalance()).isEqualByComarpingTo(BigDecimal.valueOf(1500));
+        assertThat(account.getBalance()).isEqualByComparingTo(BigDecimal.valueOf(1500));
     }
 
 
@@ -92,7 +92,7 @@ void addExpense_shouldDecreaseBalance()
 
     transactionService.addTransaction(1L, request);
 
-    assertThat(account.getBalance()).isEqualByComarpingTo(BigDecimal.valueOf(800));
+    assertThat(account.getBalance()).isEqualByComparingTo(BigDecimal.valueOf(800));
 }
 
 @Test
@@ -107,7 +107,7 @@ void deleteTransaction_shouldReverseBalance()
 
     transactionService.deleteTransaction(1L);
 
-    assertThat(account.getBalance()).isEqualByComarpingTo(BigDecimal.valueOf(1300));
+    assertThat(account.getBalance()).isEqualByComparingTo(BigDecimal.valueOf(1300));
 
 }
 

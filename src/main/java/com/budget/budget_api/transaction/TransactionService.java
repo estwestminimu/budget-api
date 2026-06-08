@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.budget.budget_api.account.Account;
 import com.budget.budget_api.account.AccountRepository;
+import com.budget.budget_api.exception.ResourceNotFoundException;
 import com.budget.budget_api.transaction.dto.TransactionRequest;
 import com.budget.budget_api.transaction.dto.TransactionResponse;
 
@@ -47,7 +48,7 @@ public class TransactionService {
 
     public TransactionResponse addTransaction(Long accountId, TransactionRequest request) {
         Account account = accountRepository.findById(accountId)
-                .orElseThrow(() -> new RuntimeException("Konto nie istnieje."));
+                .orElseThrow(() -> new ResourceNotFoundException("Konto nie istnieje."));
 
         BigDecimal change = request.getType() == TransactionType.INCOME ? request.getAmount()
                 : request.getAmount().negate();

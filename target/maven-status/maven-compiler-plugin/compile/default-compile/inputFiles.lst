@@ -17,7 +17,6 @@
 /home/szymon/Aplikacje/Softnet/budget-api/src/main/java/com/budget/budget_api/transaction/TransactionController.java
 /home/szymon/Aplikacje/Softnet/budget-api/src/main/java/com/budget/budget_api/transaction/TransactionRepository.java
 /home/szymon/Aplikacje/Softnet/budget-api/src/main/java/com/budget/budget_api/transaction/TransactionService.java
-/home/szymon/Aplikacje/Softnet/budget-api/src/main/java/com/budget/budget_api/transaction/TransactionServiceTest.java
 /home/szymon/Aplikacje/Softnet/budget-api/src/main/java/com/budget/budget_api/transaction/TransactionType.java
 /home/szymon/Aplikacje/Softnet/budget-api/src/main/java/com/budget/budget_api/transaction/dto/TransactionRequest.java
 /home/szymon/Aplikacje/Softnet/budget-api/src/main/java/com/budget/budget_api/transaction/dto/TransactionResponse.java
