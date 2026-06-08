@@ -118,4 +118,4 @@ GET /accounts/1/summary
 
 
 ## AI
-AI wykorzystane przy tworzeniu tabel w readme.md oraz w kodzie przy nazywaniu zmiennych w celu większej klarowności w czytaniu.
+AI wykorzystane przy tworzeniu tabel w readme.md oraz w kodzie przy nazywaniu zmiennych w celu większej klarowności w czytaniu. Naprawianie błędów przy konfiguracji.
